@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+
+.menuBox {
+  width: 100%;
+  height: 25px;
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 10px;
+  background-color: #999999;
+  text-align: left;
+  display: inline-flex;
+  list-style: none;
+}
+
+.menu {
+  flex: 1;
+  text-align: center;
+}
+.menu ul li {
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+.menu ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  text-decoration: underline;
+  color: rgb(238, 191, 104);
+}
+.header {
+  width: 100%;
+  height: 550px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: url(1.png);
+}
+.text-box {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+.text-box h1 {
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+.text-box h3 {
+  color: rgb(238, 191, 104);
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 10px 40px;
+  position: relative;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.btn:hover {
+  color: #000;
+  background-color: rgb(238, 191, 104);
+}
+
+.bottom-container {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bottom-container a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+.bottom-container a:hover {
+  text-decoration: underline;
+  color: rgb(238, 191, 104);
+}
